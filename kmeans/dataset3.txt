@@ -1,0 +1,151 @@
+150 13 3 100 0
+5.1 3.5 1.4 0.2 0.5 0.7 0.7 1.0 1.0 0.9 1.0 0.7 0.9 'Aberta Demais De Oliveira' a@gmail.com 206
+4.9 3.0 1.4 0.2 0.3 0.4 0.5 0.5 0.5 0.9 1.0 0.9 0.2 'Abias Corpus Da Silva' a@gmail.com 206
+4.7 3.2 1.3 0.2 0.4 0.6 0.6 0.6 0.1 0.5 0.6 0.2 0.3 'Ácido Acético Etílico Da Silva' a@gmail.com 206
+4.6 3.1 1.5 0.2 0.5 0.5 0.9 1.0 0.1 0.6 0.8 0.7 0.3 'Afília Demaria De Nazaré' a@gmail.com 206
+5.0 3.6 1.4 0.2 0.6 0.6 0.1 0.2 0.9 0.3 0.1 0.7 0.2 'Alfredo Prazeirozo Texugueiro' a@gmail.com 206
+5.4 3.9 1.7 0.4 0.8 0.2 0.5 0.6 0.1 0.1 0.3 0.5 0.7 'Amável Pinto' a@gmail.com 206
+4.6 3.4 1.4 0.3 0.5 0.9 0.6 0.4 0.7 0.8 0.7 0.1 0.8 'Ambrísia Estilingue Morretes' a@gmail.com 206
+5.0 3.4 1.5 0.2 1.0 0.6 0.1 0.7 1.0 0.4 0.7 0.3 0.7 'Ana Baiana Meleva Daqui Pratinhos' a@gmail.com 206
+4.4 2.9 1.4 0.2 0.6 0.7 0.1 0.6 0.3 1.0 1.0 0.9 0.6 'Antonio Buceta Agudim' a@gmail.com 206
+4.9 3.1 1.5 0.1 0.8 0.6 0.5 0.8 0.1 0.8 0.2 1.0 0.1 'Antonio Donizete Bobo' a@gmail.com 206
+5.4 3.7 1.5 0.2 0.8 0.6 0.5 0.7 0.7 0.8 0.3 0.2 0.3 'Antonio Manso Pacífico De Oliveira Sossegado' a@gmail.com 206
+4.8 3.4 1.6 0.2 0.5 0.8 0.4 0.2 0.3 0.2 0.5 0.2 0.2 'Antônio Morrendo Das Dores' a@gmail.com 206
+4.8 3.0 1.4 0.1 1.0 0.3 0.6 0.4 0.6 1.0 0.3 0.7 0.8 'Antônio Veado Prematuro' a@gmail.com 206
+4.3 3.0 1.1 0.1 0.2 0.9 0.5 0.3 1.0 0.7 0.1 0.9 0.3 'Ava Gina' a@gmail.com 206
+5.8 4.0 1.2 0.2 0.4 0.4 1.0 0.4 0.3 0.8 0.8 0.8 0.1 'Barrigudinha Seleida' a@gmail.com 206
+5.7 4.4 1.5 0.4 0.7 0.8 0.2 0.8 0.7 0.7 0.8 0.2 0.2 'Batman Bin Superman' a@gmail.com 206
+5.4 3.9 1.3 0.4 0.3 0.6 0.8 1.0 0.3 0.3 0.5 0.3 0.1 'Benvindo Viola' a@gmail.com 206
+5.1 3.5 1.4 0.3 0.3 0.8 1.0 0.4 0.4 0.9 0.7 0.2 1.0 'Bucetildes Fernandes' a@gmail.com 206
+5.7 3.8 1.7 0.3 0.6 0.7 0.6 0.2 0.2 0.8 0.7 0.5 1.0 'Capote Valente' a@gmail.com 206
+5.1 3.8 1.5 0.3 0.4 0.8 1.0 0.3 0.7 0.9 0.7 0.5 0.6 'Carabino Tiro Certo' a@gmail.com 206
+5.4 3.4 1.7 0.2 0.2 0.1 0.4 0.1 0.4 0.4 0.9 0.7 0.5 'Carlos Do Pinto Valente' a@gmail.com 206
+5.1 3.7 1.5 0.4 0.8 0.1 0.5 0.8 0.1 0.7 0.7 0.1 0.9 'Céu Azul Do Sol Poente' a@gmail.com 206
+4.6 3.6 1.0 0.2 0.8 0.1 0.9 0.2 1.0 0.4 0.8 0.3 0.5 'Chevrolet Da Silva Ford' a@gmail.com 206
+5.1 3.3 1.7 0.5 1.0 0.1 0.8 1.0 0.4 0.4 0.8 0.4 0.8 'Cincero Do Nascimento' a@gmail.com 206
+4.8 3.4 1.9 0.2 0.3 1.0 0.8 0.6 0.5 0.4 1.0 1.0 0.2 'Colapso Cardíaco da Silva' a@gmail.com 206
+5.0 3.0 1.6 0.2 0.5 0.7 1.0 0.9 0.9 0.6 0.8 0.8 0.6 'Defuntina De Souza Cruz' a@gmail.com 206
+5.0 3.4 1.6 0.4 0.2 0.5 0.2 0.9 0.5 0.7 0.3 0.9 0.2 'Delícia Costa Melo' a@gmail.com 206
+5.2 3.5 1.5 0.2 0.4 0.5 0.4 1.0 0.5 1.0 0.7 0.8 1.0 'Deuzivaldo Ferreira' a@gmail.com 206
+5.2 3.4 1.4 0.2 0.3 0.4 0.3 0.2 0.2 0.5 0.6 1.0 0.4 'Dolores Fuertes De Barriga' a@gmail.com 206
+4.7 3.2 1.6 0.2 0.5 1.0 1.0 0.7 1.0 0.5 0.8 0.5 0.5 'Domingos Pinto Justo' a@gmail.com 206
+4.8 3.1 1.6 0.2 0.5 1.0 0.7 0.3 0.3 0.5 0.8 0.9 0.3 'Dosolina Piroca Tazinasso' a@gmail.com 206
+5.4 3.4 1.5 0.4 0.8 0.8 0.6 0.9 0.1 0.1 0.6 0.9 0.7 'Elvis Presley Da Silva' a@gmail.com 206
+5.2 4.1 1.5 0.1 0.8 0.9 0.8 0.8 0.6 0.7 0.8 0.4 0.6 'Eraldonclóbes Souza' a@gmail.com 206
+5.5 4.2 1.4 0.2 0.1 0.1 0.4 0.6 0.3 0.3 0.4 0.2 0.6 'Ernesto Segundo Da Família Lima' a@gmail.com 206
+4.9 3.1 1.5 0.1 0.1 0.1 0.4 0.9 0.9 0.6 0.4 0.5 0.1 'Espere Em Deus Mateus' a@gmail.com 206
+5.0 3.2 1.2 0.2 0.2 0.8 0.6 0.6 0.1 0.1 0.7 1.0 0.3 'Eva Gina Melo' a@gmail.com 206
+5.5 3.5 1.3 0.2 1.0 0.9 0.8 0.5 0.1 0.1 0.2 0.7 0.3 'Falidora Da Fortuna Dopai Ramiro' a@gmail.com 206
+4.9 3.1 1.5 0.1 0.1 0.7 0.9 0.1 0.7 0.5 0.5 0.5 0.3 'Faraó do Egito Sousa' a@gmail.com 206
+4.4 3.0 1.3 0.2 0.5 0.5 0.7 0.2 0.9 0.3 0.8 0.5 0.6 'Fernando Do Amor Divino' a@gmail.com 206
+5.1 3.4 1.5 0.2 0.6 1.0 0.2 0.5 0.6 1.0 1.0 0.1 1.0 'Finadina de Souza Cruz' a@gmail.com 206
+5.0 3.5 1.3 0.3 0.8 0.2 0.4 0.5 0.2 0.4 0.8 0.3 0.7 'Flávio Cavalcante Rei da Televisão' a@gmail.com 206
+4.5 2.3 1.3 0.3 0.1 0.9 1.0 0.5 0.6 0.9 0.2 0.2 0.7 'Fodelícia Dos Santos' a@gmail.com 206
+4.4 3.2 1.3 0.2 0.4 0.5 0.1 0.6 0.6 0.5 0.2 1.0 0.7 'Francisco Zebedeu Sanguessuga' a@gmail.com 206
+5.0 3.5 1.6 0.6 0.1 0.3 1.0 0.4 0.5 0.6 1.0 0.4 0.3 'Himineu Casamenticio Das Dores Conjugais' a@gmail.com 206
+5.1 3.8 1.9 0.4 0.7 0.3 0.4 0.9 0.1 0.4 0.6 0.5 1.0 'Hitle Mussolini' a@gmail.com 206
+4.8 3.0 1.4 0.3 0.1 0.4 0.3 0.3 0.9 0.9 0.9 0.4 0.4 'Hugo Madeira De Lei Aroeiro' a@gmail.com 206
+5.1 3.8 1.6 0.2 0.9 0.2 0.7 0.8 0.4 1.0 0.8 0.2 0.5 'Inocêncio Coitadinho' a@gmail.com 206
+4.6 3.2 1.4 0.2 0.8 0.6 0.7 0.9 0.7 0.6 0.1 0.6 0.4 'Izabel Rainha De Portugal' a@gmail.com 206
+5.3 3.7 1.5 0.2 0.5 0.7 0.3 1.0 0.2 0.1 0.4 0.9 0.6 'Jacinto Leite Aquino Rêgo' a@gmail.com 206
+5.0 3.3 1.4 0.2 0.3 0.8 1.0 0.4 0.1 0.4 0.1 0.5 0.7 'Jacinto Pinto' a@gmail.com 206
+7.0 3.2 4.7 1.4 1.0 0.6 0.5 0.4 0.7 0.5 0.2 0.8 0.9 'Jacinto Regoroxo' a@gmail.com 206
+6.4 3.2 4.5 1.5 0.5 0.1 0.4 0.3 0.3 0.6 0.8 0.5 0.2 'Jafa Lei Dos Santos' a@gmail.com 206
+6.9 3.1 4.9 1.5 0.2 0.7 0.2 0.9 0.8 0.1 0.5 0.4 1.0 'Janeiro Fevereiro de Março Abril' a@gmail.com 206
+5.5 2.3 4.0 1.3 0.2 0.4 0.2 0.3 0.5 0.1 1.0 0.7 0.3 'Jaspion Brasileiro Dantas Garcia' a@gmail.com 206
+6.5 2.8 4.6 1.5 0.3 0.2 0.2 0.5 0.6 0.8 1.0 0.9 1.0 'Jean Claude Van Dame Da Silva' a@gmail.com 206
+5.7 2.8 4.5 1.3 0.7 0.6 0.2 0.3 0.6 0.5 0.7 0.8 0.2 'João Cara De José' a@gmail.com 206
+6.3 3.3 4.7 1.6 0.9 1.0 0.3 0.7 0.1 0.6 1.0 0.6 0.9 'João Da Cú Da Luz' a@gmail.com 206
+4.9 2.4 3.3 1.0 0.5 0.2 0.6 0.8 1.0 0.3 0.7 0.9 0.1 'João Manuel Boceta Portas' a@gmail.com 206
+6.6 2.9 4.6 1.3 0.3 0.7 1.0 0.8 0.5 0.3 0.2 0.9 0.4 'João Sem Sobrenome' a@gmail.com 206
+5.2 2.7 3.9 1.4 0.9 1.0 0.5 0.7 0.9 0.2 0.4 0.1 0.7 'Joaquim Pinto Molhadinho' a@gmail.com 206
+5.0 2.0 3.5 1.0 0.1 0.1 0.4 0.8 0.7 0.8 0.3 0.5 1.0 'José Catarrinho' a@gmail.com 206
+5.9 3.0 4.2 1.5 0.2 0.5 0.2 0.8 0.9 0.7 0.9 0.7 0.9 'Josefina Grosso' a@gmail.com 206
+6.0 2.2 4.0 1.0 0.9 0.1 0.7 0.4 0.2 0.3 0.9 0.2 1.0 'Jotacá Dois Mil E Um' a@gmail.com 206
+6.1 2.9 4.7 1.4 1.0 0.5 0.6 0.6 0.2 0.1 0.5 0.8 0.9 'Jovelina Rosa Cheirosa' a@gmail.com 206
+5.6 2.9 3.6 1.3 0.7 0.9 0.8 0.6 0.6 0.7 0.3 0.6 0.9 'Júlio Santos Pé-Curto' a@gmail.com 206
+6.7 3.1 4.4 1.4 0.4 0.6 0.7 0.8 0.9 0.7 0.4 0.3 0.7 'Juvenalda Datia Gulosa' a@gmail.com 206
+5.6 3.0 4.5 1.5 0.1 0.2 0.1 0.9 0.7 0.6 0.2 0.8 0.9 'Leda Prazeres Amante' a@gmail.com 206
+5.8 2.7 4.1 1.0 0.3 0.1 0.2 0.7 0.3 0.3 0.9 0.6 0.8 'Letsgo Daqui' a@gmail.com 206
+6.2 2.2 4.5 1.5 0.1 0.3 1.0 0.1 1.0 0.5 0.2 0.7 0.2 'Madeinusa' a@gmail.com 206
+5.6 2.5 3.9 1.1 0.3 0.7 1.0 0.5 0.7 0.1 0.8 0.8 0.9 'Maiquel Edy Marfy' a@gmail.com 206
+5.9 3.2 4.8 1.8 1.0 0.4 0.8 0.9 1.0 1.0 1.0 0.9 0.3 'Manoel Sovaco De Gambar' a@gmail.com 206
+6.1 2.8 4.0 1.3 0.9 0.6 0.7 0.6 0.7 0.3 0.4 1.0 0.9 'Manuel Sola De Sá Pato' a@gmail.com 206
+6.3 2.5 4.9 1.5 1.0 0.2 0.7 0.7 0.8 0.5 0.1 0.9 0.5 'Márciano Verdinho Das Antenas Longas' a@gmail.com 206
+6.1 2.8 4.7 1.2 0.9 0.7 0.2 1.0 0.8 1.0 0.4 0.4 0.6 'Maria Bastarda Dequem' a@gmail.com 206
+6.4 2.9 4.3 1.3 0.5 0.4 1.0 0.3 0.4 0.1 0.6 1.0 1.0 'Maria Buceta Paranhos Pinto' a@gmail.com 206
+6.6 3.0 4.4 1.4 0.6 0.9 0.4 0.5 0.8 0.1 0.6 0.2 0.4 'Maria Cristina Do Pinto Magro' a@gmail.com 206
+6.8 2.8 4.8 1.4 0.3 0.4 0.2 0.9 0.2 0.3 0.3 0.3 0.6 'Maria Da Boa Morte' a@gmail.com 206
+6.7 3.0 5.0 1.7 0.9 1.0 0.5 0.4 0.7 0.2 0.9 0.8 1.0 'Maria Da Delícia Dazona' a@gmail.com 206
+6.0 2.9 4.5 1.5 0.1 0.7 0.5 0.6 0.2 0.8 0.3 0.7 0.8 'Maria Do Bom Despacho' a@gmail.com 206
+5.7 2.6 3.5 1.0 0.1 0.8 0.8 0.4 0.5 1.0 0.6 0.8 0.1 'Maria José Brochado' a@gmail.com 206
+5.5 2.4 3.8 1.1 0.3 0.4 0.2 0.7 0.6 0.2 0.6 0.3 0.4 'Maria Panela' a@gmail.com 206
+5.5 2.4 3.7 1.0 0.6 0.6 1.0 0.1 0.3 0.5 0.3 0.7 0.5 'Maria Tributina Prostituta Cataerva' a@gmail.com 206
+5.8 2.7 3.9 1.2 0.6 0.4 0.5 0.2 0.7 0.5 0.3 0.7 0.4 'Mariana Daxana Laranjal' a@gmail.com 206
+6.0 2.7 5.1 1.6 0.5 0.6 0.8 1.0 0.2 0.3 0.2 0.2 0.7 'Maycom Géquiçom' a@gmail.com 206
+5.4 3.0 4.5 1.5 0.9 0.5 0.2 0.4 0.3 0.2 0.8 1.0 0.6 'Metia Paula Da Silva' a@gmail.com 206
+6.0 3.4 4.5 1.6 0.4 0.2 0.9 0.1 0.9 0.6 0.3 0.7 0.2 'Mijardina Pinto' a@gmail.com 206
+6.7 3.1 4.7 1.5 0.9 0.5 0.9 0.5 0.5 0.9 1.0 0.2 0.9 'Ministéio Salgado' a@gmail.com 206
+6.3 2.3 4.4 1.3 1.0 0.3 0.1 0.7 0.9 0.2 0.6 1.0 0.1 'Miquetiçon Dos Santos' a@gmail.com 206
+5.6 3.0 4.1 1.3 0.2 1.0 0.6 0.3 1.0 0.4 0.1 0.4 0.2 'Mister Love' a@gmail.com 206
+5.5 2.5 4.0 1.3 0.5 0.7 0.7 0.5 0.3 0.6 0.7 0.5 0.2 'Mitiko Kudo Endo' a@gmail.com 206
+5.5 2.6 4.4 1.2 0.6 0.7 0.5 1.0 0.3 0.5 0.8 0.2 0.6 'Necrotério Pereira Da Silva' a@gmail.com 206
+6.1 3.0 4.6 1.4 0.1 0.9 0.1 0.3 0.5 0.2 0.6 0.5 0.7 'Oceano Atlântico Da Silveira E Souza' a@gmail.com 206
+5.8 2.6 4.0 1.2 0.6 0.5 0.6 0.4 0.2 0.6 0.9 0.1 0.4 'Orlando Modesto Pinto' a@gmail.com 206
+5.0 2.3 3.3 1.0 0.7 0.6 0.4 0.9 0.9 1.0 1.0 0.1 0.2 'Otávio Bundasseca' a@gmail.com 206
+5.6 2.7 4.2 1.3 1.0 0.6 0.5 0.3 1.0 0.7 0.8 0.5 0.6 'Padre Filho Do Espírito Santo Amém' a@gmail.com 206
+5.7 3.0 4.2 1.2 0.4 0.6 0.1 1.0 0.9 0.3 0.8 0.9 0.3 'Passamão Nocorrimão' a@gmail.com 206
+5.7 2.9 4.2 1.3 0.2 0.8 0.4 1.0 0.7 0.2 0.8 0.3 0.1 'Patricia Pinto Grosso' a@gmail.com 206
+6.2 2.9 4.3 1.3 0.8 0.3 0.4 1.0 0.5 0.6 1.0 0.1 0.7 'Paulo Jacinto Leite' a@gmail.com 206
+5.1 2.5 3.0 1.1 0.7 1.0 0.4 0.8 1.0 1.0 0.4 0.3 0.1 'Pernilonguildo Tentofaz Furão' a@gmail.com 206
+5.7 2.8 4.1 1.3 0.2 0.8 0.7 0.7 1.0 0.4 0.2 0.6 0.1 'Piá Motel Das Dores' a@gmail.com 206
+6.3 3.3 6.0 2.5 1.0 1.0 0.1 0.4 0.5 0.3 0.2 0.7 0.5 'Pinto Brochado' a@gmail.com 206
+5.8 2.7 5.1 1.9 0.3 0.6 0.6 0.6 0.4 1.0 0.7 0.6 0.1 'Pinto Crespo Magalhães' a@gmail.com 206
+7.1 3.0 5.9 2.1 0.4 0.7 0.1 0.3 0.9 0.8 0.7 0.9 0.9 'Primavera Verão Outono Inverno' a@gmail.com 206
+6.3 2.9 5.6 1.8 0.5 0.4 0.7 0.1 0.6 0.3 0.7 0.8 0.2 'Produto do Amor Conjugal De Marichá E Maribel' a@gmail.com 206
+6.5 3.0 5.8 2.2 0.2 0.8 0.7 1.0 1.0 0.7 0.1 0.5 0.2 'Putassa Frescura' a@gmail.com 206
+7.6 3.0 6.6 2.1 0.7 0.8 0.4 0.9 0.6 0.6 1.0 0.2 0.4 'Rego Penteado' a@gmail.com 206
+4.9 2.5 4.5 1.7 0.5 0.6 0.4 0.6 1.0 0.2 0.3 0.5 0.7 'Remédio Amargo' a@gmail.com 206
+7.3 2.9 6.3 1.8 0.4 0.8 0.2 0.7 0.8 0.3 0.1 0.9 0.8 'Renato Pordeus Furtado' a@gmail.com 206
+6.7 2.5 5.8 1.8 0.3 0.5 0.7 0.4 0.5 0.2 0.6 0.7 0.6 'Rolando Caio da Rocha' a@gmail.com 206
+7.2 3.6 6.1 2.5 0.6 1.0 0.8 0.4 0.3 1.0 0.4 0.9 0.3 'Rolando Escadabaixo' a@gmail.com 206
+6.5 3.2 5.1 2.0 0.2 0.9 0.2 0.5 0.8 0.7 0.1 0.5 0.2 'Safada Da Sogra Vitorina' a@gmail.com 206
+6.4 2.7 5.3 1.9 0.4 0.4 0.1 0.2 0.5 0.2 0.2 0.6 0.6 'Safira Azul Esverdeada' a@gmail.com 206
+6.8 3.0 5.5 2.1 0.1 0.2 0.5 0.7 0.8 0.1 0.4 0.4 1.0 'Salvador Das Dores' a@gmail.com 206
+5.7 2.5 5.0 2.0 0.9 0.2 0.2 0.7 0.4 0.5 0.1 0.5 0.3 'Seriaela Deu' a@gmail.com 206
+5.8 2.8 5.1 2.4 0.7 0.9 0.4 0.1 0.9 0.2 0.3 0.8 0.8 'Sete Chagas De Jesus E Salve Pátria' a@gmail.com 206
+6.4 3.2 5.3 2.3 0.3 0.6 0.1 0.5 1.0 0.7 0.7 0.3 0.3 'Sextavado Obtusângulo Reto' a@gmail.com 206
+6.5 3.0 5.5 1.8 0.1 0.9 0.3 0.3 1.0 0.9 0.3 0.2 1.0 'Silvio Dubroca' a@gmail.com 206
+7.7 3.8 6.7 2.2 0.8 0.9 0.4 0.2 1.0 1.0 0.3 0.6 1.0 'Simplício Simplório Da Simplicidade Simples' a@gmail.com 206
+7.7 2.6 6.9 2.3 0.7 0.8 1.0 0.9 1.0 1.0 0.1 0.7 0.9 'Timétio Pinto' a@gmail.com 206
+6.0 2.2 5.0 1.5 0.9 0.7 0.1 0.8 0.8 0.8 0.4 0.1 0.8 'Tobiniana Matusquela' a@gmail.com 206
+6.9 3.2 5.7 2.3 0.6 0.8 0.6 1.0 0.2 0.4 0.8 0.5 0.5 'Tyrannosaurus Rex Mullens' a@gmail.com 206
+5.6 2.8 4.9 2.0 0.8 0.7 0.1 0.7 0.5 0.9 0.4 1.0 0.7 'Última Delícia do Casal Carvalho' a@gmail.com 206
+7.7 2.8 6.7 2.0 0.4 1.0 0.8 0.9 0.1 0.2 0.3 0.8 0.4 'Um Dois Três de Oliveira Quatro' a@gmail.com 206
+6.3 2.7 4.9 1.8 0.9 0.2 0.2 0.5 0.9 0.2 0.7 0.1 1.0 'Vanessa Cachorroski' a@gmail.com 206
+6.7 3.3 5.7 2.1 0.3 0.4 0.6 0.2 0.8 0.6 0.8 0.8 0.2 'Veneza Americana do Recife' a@gmail.com 206
+7.2 3.2 6.0 1.8 1.0 0.8 1.0 0.3 0.7 0.7 0.8 0.7 1.0 'Vicente Mais Ou Menos de Souza' a@gmail.com 206
+6.2 2.8 4.8 1.8 0.8 0.9 0.3 0.1 1.0 0.7 0.1 0.1 0.3 'Vitória Carne e Osso' a@gmail.com 206
+6.1 3.0 4.9 1.8 0.2 0.3 0.8 0.7 0.9 0.7 0.4 0.5 0.3 'Vitor Hugo Tocagaita' a@gmail.com 206
+6.4 2.8 5.6 2.1 0.9 0.7 0.1 0.3 0.5 0.8 0.9 1.0 0.8 'Vivelinda Cabrita' a@gmail.com 206
+7.2 3.0 5.8 1.6 0.6 0.8 0.4 0.1 0.1 0.5 0.7 0.8 0.1 'Zélia Tocafundo Pinto' a@gmail.com 206
+7.4 2.8 6.1 1.9 0.1 0.6 0.4 0.6 0.3 0.9 0.3 1.0 0.6 ' Acheropita Papazone' a@gmail.com 206
+7.9 3.8 6.4 2.0 0.1 0.2 0.9 0.2 0.4 0.7 0.3 0.7 1.0 'Ácido Acético Etílico Da Silva' a@gmail.com 206
+6.4 2.8 5.6 2.2 0.3 0.6 0.7 0.6 0.5 0.2 0.7 0.6 0.9 'Agrícola Beterraba Areia Leão' a@gmail.com 206
+6.3 2.8 5.1 1.5 0.2 0.5 0.9 0.4 0.9 0.4 0.1 0.5 0.5 'Amável Pinto' a@gmail.com 206
+6.1 2.6 5.6 1.4 0.8 0.4 0.1 1.0 1.0 0.2 0.3 0.6 0.5 'Amin Amou Amado' a@gmail.com 206
+7.7 3.0 6.1 2.3 0.4 1.0 0.2 0.6 0.1 0.4 0.7 0.9 0.8 'Antônio Treze de Junho de Mil Novecentos e Dezessete' a@gmail.com 206
+6.3 3.4 5.6 2.4 0.7 0.3 0.5 0.1 0.4 0.3 0.1 0.8 0.1 'Antônio Veado Prematuro' a@gmail.com 206
+6.4 3.1 5.5 1.8 0.8 0.6 1.0 0.5 0.6 0.7 0.8 0.5 0.5 'Barrigudinha Seleida' a@gmail.com 206
+6.0 3.0 4.8 1.8 0.5 0.8 0.2 0.5 0.9 0.5 0.5 0.7 0.9 'Bizarro Assada' a@gmail.com 206
+6.9 3.1 5.4 2.1 0.1 0.7 0.9 0.8 0.8 0.1 0.2 0.7 0.6 'Céu Azul do Sol Poente' a@gmail.com 206
+6.7 3.1 5.6 2.4 0.6 0.7 0.9 0.8 0.7 0.6 0.8 0.9 0.1 'Chevrolet da Silva Ford' a@gmail.com 206
+6.9 3.1 5.1 2.3 0.2 0.6 0.2 0.1 0.5 0.9 0.4 0.6 0.4 'Deust É Infinitamente Misericordioso' a@gmail.com 206
+5.8 2.7 5.1 1.9 1.0 0.8 0.7 0.4 0.2 0.1 0.1 0.5 0.4 'Faraó do Egito Souza' a@gmail.com 206
+6.8 3.2 5.9 2.3 0.1 0.1 0.9 0.1 0.9 0.2 0.6 0.4 0.6 'Fernando Coelho do Rêgo' a@gmail.com 206
+6.7 3.3 5.7 2.5 0.5 1.0 0.4 1.0 0.7 0.7 0.6 0.5 0.2 'Himeneu Casamenteiro das Dores Conjugais' a@gmail.com 206
+6.7 3.0 5.2 2.3 1.0 0.4 0.1 0.9 0.8 0.1 0.1 0.8 0.8 'Jacinto Leite Aquino Rego' a@gmail.com 206
+6.3 2.5 5.0 1.9 0.1 0.7 0.6 0.9 1.0 0.5 0.9 0.5 0.6 'Janeiro Fevereiro de Março Abril' a@gmail.com 206
+6.5 3.0 5.2 2.0 1.0 0.2 0.6 0.1 0.3 0.3 1.0 1.0 1.0 'José Casou de Calças Curtas' a@gmail.com 206
+6.2 3.4 5.4 2.3 0.3 0.7 0.6 0.5 0.3 0.9 0.3 0.6 0.5 'Liberdade Igualdade Fraternidade Nova York Rocha' a@gmail.com 206
+5.9 3.0 5.1 1.8 0.5 0.6 0.2 1.0 0.2 0.1 0.1 0.9 0.3 'Manoel Sovaco de Gambar' a@gmail.com 206
