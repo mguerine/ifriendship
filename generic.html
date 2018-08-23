@@ -6,16 +6,18 @@
 -->
 <html>
 	<head>
-		<title>Generic - Broadcast by TEMPLATED</title>
+		<title>IFriendship: Sistema de Recomendação de Amizades</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/as.png">
+
 	</head>
 	<body class="subpage">
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="#">Broadcast <span>by TEMPLATED</span></a></h1>
+				<h1><a href="#">IFriendship <span>by Luis and Fran</span></a></h1>
 				<a href="#menu">Menu</a>
 			</header>
 
@@ -23,8 +25,9 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="index.html#2">Metodologia</a></li>
+					<li><a href="generic.html">Formulário</a></li>
+					
 				</ul>
 			</nav>
 
@@ -35,117 +38,262 @@
 				<section class="wrapper style1">
 					<div class="inner">
 						<header class="align-center">
-							<h2>Nam eu nisi non ante sodale</h2>
-							<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
+							<h2>IFriendship: Sistema de Recomendação de Amizades</h2>
 						</header>
-						<div class="video">
-							<div class="video-wrapper">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/s6zR2T9vn2c" frameborder="0" allowfullscreen></iframe>
+	
+						<div class="Formulário">
+
+						<form method="post" action="results.php">
+							<div class="id">
+								<table>
+								 <tr>
+								   <td>Nome:</td>
+								   <td> <input type="text" name="nome" size="50" required ></input></td>
+								 </tr>
+								 <tr>
+
+
+								   <td>Turma:</td>
+								   <td><div class="select-wrapper">
+									<select id="Turma" required > <br />
+								   	<option disabled selected value> -- Selecione uma opção -- </option>
+								   	<option>TA100</option>
+								   	<option>TA101</option>
+								   	<option>TA102</option>
+								   	<option>MA103</option>
+								   	<option>MA104</option>
+								   	<option>TI105</option>
+								   	<option>AI107</option>
+								   	<option>TA201</option>
+								   	<option>TA202</option>
+								   	<option>MA203</option>
+								   	<option>MA204</option>
+								   	<option>TI205</option>
+								   	<option>TI206</option>
+								   	<option>AI207</option>
+								   	<option>TA301</option>
+								   	<option>TA302</option>
+								   	<option>MA303</option>
+								   	<option>MA304</option>
+								   	<option>TI305</option>
+								   	<option>TI306</option>
+								   	<option>AI307</option>
+									<option>LICOMP</option>
+</div>
+								   </td>
+								 </tr>
+								</table>
+								
 							</div>
-							<p class="caption">
-								In luctus nunc nec lacus condimentum maximus. Nunc vestibulum urna a arcu dignissim, nec aliquam ultrices ac massa eget placerat.
-							</p>
+							<div class="questao1">
+							</br>
+								<h1>01- Você se considera uma pessoa :</h1>
+									<div class="select-wrapper"> <select id="questao01" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Calma</option>
+										<option>Agitada</option>
+										<option>Comunicativa</option>
+										<option>Timida</option>
+										<option>Impulsiva</option>
+										<option>Prudente</option>
+										<option>Divertida</option>
+										<option>Inteligente</option>
+										<option>Otimista</option>
+										<option>Pessimista</option>
+										<option>Protetora</option>
+										<option>Confiante</option>
+								    </select></div>
+							</div>
+
+
+							<div class="questao2">
+							</br>
+								<h1>02- Como você gosta de se expressar?</h1>
+									<div class="select-wrapper"> <select id="questao02" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Desenhando</option>
+										<option>Escrevendo</option>
+										<option>Dançando</option>
+										<option>Cantando</option>
+										<option>Conversando</option>
+										<option>Pintando</option>
+										<option>Jogando</option>
+								    </select></div>
+							</div>
+
+
+							<div class="questao3">
+							</br>
+								<h1>03- Qual seu gênero musical preferido ?</h1>
+									<div class="select-wrapper"> <select id="questao03" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Funk</option>
+										<option>Rock</option>
+										<option>Rap</option>
+										<option>Sertanejo</option>
+										<option>Indie</option>
+										<option>K-pop</option>
+										<option>Reggae</option>
+										<option>Pagode</option>
+								    </select></div>
+							</div>
+
+
+							<div class="questao4">
+							</br>
+								<h1>04- Quais tipos de comida você mais gosta?</h1>
+									<div class="select-wrapper"> <select id="questao04" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Japonesa</option>
+										<option>Pizza</option>
+										<option>Salgados</option>
+										<option>Hambúrguer</option>
+										<option>Sorverte</option>
+										<option>Brigadeiro</option>
+										<option>Biscoito</option>
+								    </select></div>
+							</div>
+
+							<div class="questao5">
+							</br>
+								<h1>05- O que você costuma fazer em um sábado ?</h1>
+									<div class="select-wrapper"> <select id="questao05" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Ir para festas/baladas</option>
+										<option>Ir para bares</option>
+										<option>Passar um tempo com a familia</option>
+										<option>Jogar</option>
+										<option>Ficar em casa</option>
+								    </select></div>
+							</div>
+
+							<div class="questao6">
+							</br>
+								<h1>06- Qual seria o programa perfeito para fazer com seus amigos ?</h1>
+									<div class="select-wrapper"> <select id="questao06" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Passar o dia em um fliperama</option>
+										<option>Passar o dia no campo</option>
+										<option>Ir para a balada</option>
+										<option>Ir para o bar</option>
+										<option>Passar o dia na praia</option>
+										<option>Passar o dia na cachoeira</option>
+								    </select></div>
+							</div>
+
+							<div class="questao7">
+							</br>
+								<h1>07- O que você gosta de fazer no seu tempo livre ?</h1>
+									<div class="select-wrapper"> <select id="questao07" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Assistir filmes/séries</option>
+										<option>Ler</option>
+										<option>Jogar</option>
+										<option>Sair com os amigos</option>
+										<option>Estudar</option>
+										<option>Ir á igreja</option>
+								    </select></div>
+							</div>
+
+							<div class="questao8">
+							</br>
+								<h1>08- Que tipos de filme/série você gosta ?</h1>
+									<div class="select-wrapper"> <select id="questao08" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Terror</option>
+										<option>Comédia</option>
+										<option>Romance</option>
+										<option>Drama</option>
+										<option>Musical</option>
+										<option>Ficção Científica</option>
+										<option>Documentários</option>
+								    </select></div>
+							</div>
+
+							<div class="questao9">
+							</br>
+								<h1>09- Qual superpoder você teria ?</h1>
+									<div class="select-wrapper"> <select id="questao09" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Super velocidade</option>
+										<option>Voar</option>
+										<option>Teletransporte</option>
+										<option>Super força</option>
+										<option>Ler mentes</option>
+								    </select></div>
+							</div>
+
+							<div class="questao10">
+							</br>
+								<h1>10- As características que você considera importante em uma pessoa são:</h1>
+									<div class="select-wrapper"> <select id="questao10" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Sincero</option>
+										<option>Companheiro</option>
+										<option>Senso de humor compativel</option>
+										<option>Alegre</option>
+										<option>Responsável</option>
+										<option>Animado</option>
+										<option>Compreensivo</option>
+										<option>Extrovertido</option>
+										<option>Timido</option>
+										<option>Estudioso</option>
+										<option>Bondoso</option>
+								    </select></div>
+							</div>
+
+							<div class="questao11">
+							</br>
+								<h1>11- Qual seu maior sonho ?</h1>
+									<div class="select-wrapper"> <select id="questao11" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Ser bem sucedido financeiramente</option>
+										<option>Viajar pelo mundo</option>
+										<option>Construir uma familia</option>
+										<option>Mudar o mundo com uma ideia genial</option>
+										<option>Ser famoso por seus meritos</option>
+										<option>Fazer uma descoberta fascinante</option>
+								    </select></div>
+							</div>
+
+							<div class="questao12">
+							</br>
+								<h1>12- Qual sua meta ?</h1>
+									<div class="select-wrapper"> <select id="questao12" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Aprender coisas novas</option>
+										<option>Sair mais</option>
+										<option>Ser mais comunicativo(a)</option>
+										<option>Ser mais dedicado(a)</option>
+										<option>Ser mais compreensivel</option>
+										<option>Continuar do mesmo jeito/sem metas</option>
+								    </select></div>
+							</div>
+
+							<div class="questao13">
+							</br>
+								<h1>13- Se você pudesse conhecer alguém que admira, quem seria?</h1>
+									<div class="select-wrapper"> <select id="questao13" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option>Atleta</option>
+										<option>Atriz/Ator</option>
+										<option>Cantor/Cantora</option>
+										<option>Youtuber/Blogueira/Streamer</option>
+										<option>Fotografo</option>
+										<option>Pintor</option>
+										<option>Cientista</option>
+										<option>Empreendedor</option>
+										<option>Cozinheiro</option>
+								    </select></div>
+							</div>
+
+											
 						</div>
-						<p>Curabitur venenatis lorem ut finibus finibus. Ut quis eleifend libero, nec ultricies metus. Morbi magna risus, congue sit amet pellentesque eget, malesuada ut justo. Sed ac pretium quam. Ut vel ex vitae enim sagittis posuere ac id erat. Vestibulum vel ullamcorper tellus. Donec sapien massa, venenatis ac felis vel, vestibulum sagittis enim. Maecenas ut egestas lorem, nec luctus ligula. Vestibulum neque diam, aliquet non enim a, cursus lacinia metus. Aenean fringilla luctus rhoncus. Integer vulputate massa ac suscipit venenatis. Integer luctus elit non nulla fringilla, ullamcorper maximus sem congue. Integer tristique eu nisi nec fermentum. Ut malesuada quis massa at ultricies.</p>
-						<p>Donec molestie tellus eu tincidunt dignissim. Sed sollicitudin bibendum ultricies. Vivamus tristique justo lacinia dui tempus consequat. Sed hendrerit justo in nisl auctor, id rutrum tortor congue. Vivamus mattis nibh et sem rutrum, vel viverra purus viverra. Donec et justo at orci euismod hendrerit vel vel neque. Donec gravida ipsum in augue volutpat laoreet. Ut lobortis turpis sit amet sodales ultrices.</p>
+					</br>
+												<input type="submit" value="Submeter" />
+									</form>				
 					</div>
 				</section>
-
-			<!-- Three -->
-				<section class="wrapper ">
-					<div class="inner">
-						<header class="align-center">
-							<h2>Aliquam ipsum purus dolor</h2>
-							<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
-						</header>
-
-						<!-- 3 Column Video Section -->
-							<div class="flex flex-3">
-								<div class="video col">
-									<div class="image fit">
-										<img src="images/pic09.jpg" alt="" />
-										<div class="arrow">
-											<div class="icon fa-play"></div>
-										</div>
-									</div>
-									<p class="caption">
-										Cras eget lacus sed mauris scelerisque tincidunt
-									</p>
-									<a href="generic.html" class="link"><span>Click Me</span></a>
-								</div>
-								<div class="video col">
-									<div class="image fit">
-										<img src="images/pic10.jpg" alt="" />
-										<div class="arrow">
-											<div class="icon fa-play"></div>
-										</div>
-									</div>
-									<p class="caption">
-										Vivamus vulputate lacus non massa auctor lobortis
-									</p>
-									<a href="generic.html" class="link"><span>Click Me</span></a>
-								</div>
-								<div class="video col">
-									<div class="image fit">
-										<img src="images/pic11.jpg" alt="" />
-										<div class="arrow">
-											<div class="icon fa-play"></div>
-										</div>
-									</div>
-									<p class="caption">
-										Nam eu nisi non ante sodales interdum a vitae neque
-									</p>
-									<a href="generic.html" class="link"><span>Click Me</span></a>
-								</div>
-							</div>
-					</div>
-				</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="flex flex-3">
-						<div class="col">
-							<h3>Vestibullum</h3>
-							<ul class="alt">
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-								<li><a href="#">Vis id faucibus montes tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel.</a></li>
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-							</ul>
-						</div>
-						<div class="col">
-							<h3>Lobortis</h3>
-							<ul class="alt">
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-								<li><a href="#">Vis id faucibus montes tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel.</a></li>
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-							</ul>
-						</div>
-						<div class="col">
-							<h3>Accumsan</h3>
-							<ul class="alt">
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-								<li><a href="#">Vis id faucibus montes tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel.</a></li>
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="copyright">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
-					</ul>
-					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Coverr</a>. Video: <a href="https://coverr.co">Coverr</a>.
-				</div>
-			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

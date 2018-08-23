@@ -1654,6 +1654,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1770,6 +1771,7 @@
 		hr.major {
 			margin: 3em 0;
 		}
+	.
 
 	.align-left {
 		text-align: left;
@@ -1934,7 +1936,7 @@
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 1;
 			}
 
 		}
@@ -2659,6 +2661,10 @@
 	header p {
 		color: #676d71;
 	}
+	header p.pspecial {
+		color: black;
+		text-align: center;
+	}
 
 /* Tab */
 
@@ -2720,6 +2726,7 @@
 
 		table td {
 			padding: 0.75em 0.75em;
+			vertical-align: middle;
 		}
 
 		table th {
@@ -3675,8 +3682,10 @@
 		}
 
 		#banner p {
-			color: rgba(255, 255, 255, 0.65);
+			color: rgba(255, 255, 255, 1);
 			font-size: 1.5em;
+			background-color: rgba(4, 22, 37, 0.5);
+
 		}
 
 		#banner video {
