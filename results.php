@@ -10,7 +10,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="#">IFriendship <span>by Luis and Fran</span></a></h1>
+				<h1><a href="index.html">IFriendship <span>by Luis and Fran</span></a></h1>
 				<a href="#menu">Menu</a>
 			</header>
 
