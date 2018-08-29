@@ -18,10 +18,8 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="index2.html">Home antiga</a></li>
-					<li><a href="beapart.html">Be a part</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="index.html#2">Metodologia</a></li>
+					<li><a href="generic.html">Formulário</a></li>
 					
 				</ul>
 			</nav>
@@ -48,11 +46,37 @@
 						// Acessando os dados do formulário preenchido
 						$name_form = $_POST["name"];
 						$email_form = $_POST["email"];
+						$turma_form = $_POST["turma"];
+						$resp1_form = floatval ($_POST["questao01"]);
+						$resp2_form = $_POST["questao02"];
+						$resp3_form = $_POST["questao03"];
+						$resp4_form = $_POST["questao04"];
+						$resp5_form = $_POST["questao05"];
+						$resp6_form = $_POST["questao06"];
+						$resp7_form = $_POST["questao07"];
+						$resp8_form = $_POST["questao08"];
+						$resp9_form = $_POST["questao09"];
+						$resp10_form = $_POST["questao10"];
+						$resp11_form = $_POST["questao11"];
+						$resp12_form = $_POST["questao12"];
+						$resp13_form = $_POST["questao13"];
+						/*foreach( $_POST as $stuff ) {
+						    if( is_array( $stuff ) ) {
+							foreach( $stuff as $thing ) {
+							    echo $thing;
+							}
+						    } else {
+							echo $stuff;
+						    }
+						}*/
+						
 						// pegar os outros dados do formulário para inserir no arquivo texto dataset3.txt
+						$new_data = $resp1_form. " " .$resp2_form. " " .$resp3_form. " " .$resp4_form. " " .$resp5_form. " " .$resp6_form. " " .$resp7_form. " " .$resp8_form. " " .$resp9_form. " " .$resp10_form. " " .$resp11_form. " " .$resp12_form. " " .$resp13_form. " '" .$name_form . "' " . $email_form . " ". $turma_form . "\n";
 						
+						// Inserindo novos dados na base de dados
+						file_put_contents("kmeans/dataset3.txt",$new_data,FILE_APPEND);
 						// Abrindo o arquivo com a base de dados
-						$myfile = fopen("kmeans/dataset3.txt", "r") or die("Unable to open file dataset1.txt!" );
-						
+						$myfile = fopen("kmeans/dataset3.txt", "r") or die("Unable to open file dataset3.txt!" );
 						// Lendo o arquivo da base de dados até o final e criando o modelo do KMeans
 						$line = fgets($myfile) . "<br>";
 						$comp = preg_split('/ +/', $line); 
@@ -66,9 +90,14 @@
 
 						while(!feof($myfile)) {
 						  $line = fgets($myfile);
+						
+						if($line == ""){
+							 break;
+						}
 						  $comp = preg_split('/\'/', $line); 
+							
 						  $nome = $comp[1];
-						  
+						
 						  $email_turma = preg_split('/ +/', $comp[2]);
 						 
 						  $email = $email_turma[1];
@@ -104,7 +133,10 @@
 							$space->addPoint($coordinates, null, $data[$i][0], $data[$i][1], $data[$i][2]);
 							//printf("\r%.2f%%", ($i / $n) * 100);
 						}
-
+						foreach($space as $point){
+							var_dump($space);	
+							exit(1);
+						}
 						echo "Determining clusters";
 
 						// Chamando o algoritmo KMeans para resolver a clusterização

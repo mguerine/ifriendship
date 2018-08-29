@@ -200,7 +200,7 @@ class Space extends SplObjectStorage
 		// calculate proximity amongst points and clusters
 		foreach ($clusters as $cluster) {
 			foreach ($cluster as $point) {
-				
+				echo $point->getName();
 				// find the closest cluster
 				$closest = $point->getClosest($clusters);
 

@@ -57,7 +57,17 @@ class Point implements ArrayAccess
 	
 	public function getName()
 	{
-		return "[".$this->nome . "]";
+		return "\"".$this->nome . "\"";
+	}
+
+	public function getEmail()
+	{
+		return "\"".$this->email . "\"";
+	}
+
+	public function getTurma()
+	{
+		return "\"".$this->turma . "\"";
 	}
 
 	public function getDistanceWith(self $point, $precise = true)

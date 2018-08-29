@@ -48,42 +48,43 @@
 								<table>
 								 <tr>
 								   <td>Nome:</td>
-								   <td> <input type="text" name="nome" size="50" required ></input></td>
+								   <td> <input type="text" name="name" id="name" size="50" required ></input></td>
 								 </tr>
 								 <tr> 	
 								 	<td> Email:</td>
-								 	<td> <input type="text" name="nome" size="50" required ></input></td>
+								 	<td> <input type="text" name="email" id="email" size="50" required ></input></td>
 								 </tr>
 								 <tr>
 
 
 								   <td>Turma:</td>
 								   <td><div class="select-wrapper">
-									<select id="Turma" required > <br />
-								   	<option disabled selected value> -- Selecione uma opção -- </option>
-								   	<option>TA100</option>
-								   	<option>TA101</option>
-								   	<option>TA102</option>
-								   	<option>MA103</option>
-								   	<option>MA104</option>
-								   	<option>TI105</option>
-								   	<option>AI107</option>
-								   	<option>TA201</option>
-								   	<option>TA202</option>
-								   	<option>MA203</option>
-								   	<option>MA204</option>
-								   	<option>TI205</option>
-								   	<option>TI206</option>
-								   	<option>AI207</option>
-								   	<option>TA301</option>
-								   	<option>TA302</option>
-								   	<option>MA303</option>
-								   	<option>MA304</option>
-								   	<option>TI305</option>
-								   	<option>TI306</option>
-								   	<option>AI307</option>
-									<option>LICOMP</option>
-</div>
+										<select name="turma" id="turma" required > 
+									   	<option disabled selected value> -- Selecione uma opção -- </option>
+									   	<option value="TA100">TA100</option>
+									   	<option value="TA101">TA101</option>
+									   	<option value="TA102">TA102</option>
+									   	<option value="MA103">MA103</option>
+									   	<option value="MA104">MA104</option>
+									   	<option value="TI105">TI105</option>
+									   	<option value="AI107">AI107</option>
+									   	<option value="TA201">TA201</option>
+									   	<option value="TA202">TA202</option>
+									   	<option value="MA203">MA203</option>
+									   	<option value="MA204">MA204</option>
+									   	<option value="TI205">TI205</option>
+									   	<option value="TI206">TI206</option>
+									   	<option value="AI207">AI207</option>
+									   	<option value="TA301">TA301</option>
+									   	<option value="TA302">TA302</option>
+									   	<option value="MA303">MA303</option>
+									   	<option value="MA304">MA304</option>
+									   	<option value="TI305">TI305</option>
+									   	<option value="TI306">TI306</option>
+									   	<option value="AI307">AI307</option>
+										<option value="LICOMP">LICOMP</option>
+									</select>
+									</div>
 								   </td>
 								 </tr>
 								</table>
@@ -92,7 +93,7 @@
 							<div class="questao1">
 							</br>
 								<h1>01- Você se considera uma pessoa :</h1>
-									<div class="select-wrapper"> <select id="questao01" required >
+									<div class="select-wrapper"> <select name="questao01" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Calma</option>
 										<option value="2">Agitada</option>
@@ -113,7 +114,7 @@
 							<div class="questao2">
 							</br>
 								<h1>02- Como você gosta de se expressar?</h1>
-									<div class="select-wrapper"> <select id="questao02" required >
+									<div class="select-wrapper"> <select name="questao02" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Desenhando</option>
 										<option value="2">Escrevendo</option>
@@ -129,7 +130,7 @@
 							<div class="questao3">
 							</br>
 								<h1>03- Qual seu gênero musical preferido ?</h1>
-									<div class="select-wrapper"> <select id="questao03" required >
+									<div class="select-wrapper"> <select name="questao03" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Funk</option>
 										<option value="2">Rock</option>
@@ -146,7 +147,7 @@
 							<div class="questao4">
 							</br>
 								<h1>04- Quais tipos de comida você mais gosta?</h1>
-									<div class="select-wrapper"> <select id="questao04" required >
+									<div class="select-wrapper"> <select name="questao04" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Japonesa</option>
 										<option value="2">Pizza</option>
@@ -161,7 +162,7 @@
 							<div class="questao5">
 							</br>
 								<h1>05- O que você costuma fazer em um sábado ?</h1>
-									<div class="select-wrapper"> <select id="questao05" required >
+									<div class="select-wrapper"> <select name="questao05" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Ir para festas/baladas</option>
 										<option value="2">Ir para bares</option>
@@ -174,7 +175,7 @@
 							<div class="questao6">
 							</br>
 								<h1>06- Qual seria o programa perfeito para fazer com seus amigos ?</h1>
-									<div class="select-wrapper"> <select id="questao06" required >
+									<div class="select-wrapper"> <select name="questao06" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Passar o dia em um fliperama</option>
 										<option value="2">Passar o dia no campo</option>
@@ -188,7 +189,7 @@
 							<div class="questao7">
 							</br>
 								<h1>07- O que você gosta de fazer no seu tempo livre ?</h1>
-									<div class="select-wrapper"> <select id="questao07" required >
+									<div class="select-wrapper"> <select name="questao07" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Assistir filmes/séries</option>
 										<option value="2">Ler</option>
@@ -202,7 +203,7 @@
 							<div class="questao8">
 							</br>
 								<h1>08- Que tipos de filme/série você gosta ?</h1>
-									<div class="select-wrapper"> <select id="questao08" required >
+									<div class="select-wrapper"> <select name="questao08" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Terror</option>
 										<option value="2">Comédia</option>
@@ -217,7 +218,7 @@
 							<div class="questao9">
 							</br>
 								<h1>09- Qual superpoder você teria ?</h1>
-									<div class="select-wrapper"> <select id="questao09" required >
+									<div class="select-wrapper"> <select name="questao09" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Super velocidade</option>
 										<option value="2">Voar</option>
@@ -230,7 +231,7 @@
 							<div class="questao10">
 							</br>
 								<h1>10- As características que você considera importante em uma pessoa são:</h1>
-									<div class="select-wrapper"> <select id="questao10" required >
+									<div class="select-wrapper"> <select name="questao10" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Sincero</option>
 										<option value="2">Companheiro</option>
@@ -249,7 +250,7 @@
 							<div class="questao11">
 							</br>
 								<h1>11- Qual seu maior sonho ?</h1>
-									<div class="select-wrapper"> <select id="questao11" required >
+									<div class="select-wrapper"> <select name="questao11" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Ser bem sucedido financeiramente</option>
 										<option value="2">Viajar pelo mundo</option>
@@ -263,7 +264,7 @@
 							<div class="questao12">
 							</br>
 								<h1>12- Qual sua meta ?</h1>
-									<div class="select-wrapper"> <select id="questao12" required >
+									<div class="select-wrapper"> <select name="questao12" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Aprender coisas novas</option>
 										<option value="2">Sair mais</option>
@@ -277,7 +278,7 @@
 							<div class="questao13">
 							</br>
 								<h1>13- Se você pudesse conhecer alguém que admira, quem seria?</h1>
-									<div class="select-wrapper"> <select id="questao13" required >
+									<div class="select-wrapper"> <select name="questao13" required >
 										<option disabled selected value> -- Selecione uma opção -- </option>
 										<option value="1">Atleta</option>
 										<option value="2">Atriz/Ator</option>
@@ -294,7 +295,7 @@
 											
 						</div>
 					</br>
-												<input type="submit" value="Submeter" />
+												<input type="submit" name="submit" value="Submeter" />
 									</form>				
 					</div>
 				</section>
