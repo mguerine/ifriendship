@@ -10,7 +10,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html">IFriendship <span>by Luis and Fran</span></a></h1>
+				<h1><a href="index.html">IFriendship <span>by Luis, Fran and Lucas</span></a></h1>
 				<a href="#menu">Menu</a>
 			</header>
 
@@ -41,18 +41,18 @@
 						$email_form = $_POST["email"];
 						$turma_form = $_POST["turma"];
 						$resp1_form = floatval ($_POST["questao01"]);
-						$resp2_form = $_POST["questao02"];
-						$resp3_form = $_POST["questao03"];
-						$resp4_form = $_POST["questao04"];
-						$resp5_form = $_POST["questao05"];
-						$resp6_form = $_POST["questao06"];
-						$resp7_form = $_POST["questao07"];
-						$resp8_form = $_POST["questao08"];
-						$resp9_form = $_POST["questao09"];
-						$resp10_form = $_POST["questao10"];
-						$resp11_form = $_POST["questao11"];
-						$resp12_form = $_POST["questao12"];
-						$resp13_form = $_POST["questao13"];
+						$resp2_form = floatval ($_POST["questao02"]);
+						$resp3_form = floatval ($_POST["questao03"]);
+						$resp4_form = floatval ($_POST["questao04"]);
+						$resp5_form = floatval ($_POST["questao05"]);
+						$resp6_form = floatval ($_POST["questao06"]);
+						$resp7_form = floatval ($_POST["questao07"]);
+						$resp8_form = floatval ($_POST["questao08"]);
+						$resp9_form = floatval ($_POST["questao09"]);
+						$resp10_form = floatval ($_POST["questao10"]);
+						$resp11_form = floatval ($_POST["questao11"]);
+						$resp12_form = floatval ($_POST["questao12"]);
+						$resp13_form = floatval ($_POST["questao13"]);
 						/*foreach( $_POST as $stuff ) {
 						    if( is_array( $stuff ) ) {
 							foreach( $stuff as $thing ) {
@@ -62,7 +62,19 @@
 							echo $stuff;
 						    }
 						}*/
-						
+						$resp1_form = ($resp1_form - 1)/(11);
+						$resp2_form = ($resp2_form - 1)/(6);
+						$resp3_form = ($resp3_form - 1)/(7);
+						$resp4_form = ($resp4_form - 1)/(6);
+						$resp5_form = ($resp5_form - 1)/(4);
+						$resp6_form = ($resp6_form - 1)/(5);
+						$resp7_form = ($resp7_form - 1)/(5);
+						$resp8_form = ($resp8_form - 1)/(6);
+						$resp9_form = ($resp9_form - 1)/(4);
+						$resp10_form = ($resp10_form - 1)/(10);
+						$resp11_form = ($resp11_form - 1)/(5);
+						$resp12_form = ($resp12_form - 1)/(5);
+						$resp13_form = ($resp13_form - 1)/(8);
 						// retrieving data from POST to insert into database
 						$new_data = $resp1_form. " ; " .$resp2_form. " ; " .$resp3_form. " ; " .$resp4_form. " ; " .$resp5_form. " ; " .$resp6_form. " ; " .$resp7_form. " ; " .$resp8_form. " ; " .$resp9_form. " ; " .$resp10_form. " ; " .$resp11_form. " ; " .$resp12_form. " ; " .$resp13_form. " ; " .$name_form . " ; " . $email_form . " ; ". $turma_form . "\n";
 						
@@ -80,50 +92,7 @@
 
 			</div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="flex flex-3">
-						<div class="col">
-							<h3>Vestibullum</h3>
-							<ul class="alt">
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-								<li><a href="#">Vis id faucibus montes tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel.</a></li>
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-							</ul>
-						</div>
-						<div class="col">
-							<h3>Lobortis</h3>
-							<ul class="alt">
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-								<li><a href="#">Vis id faucibus montes tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel.</a></li>
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-							</ul>
-						</div>
-						<div class="col">
-							<h3>Accumsan</h3>
-							<ul class="alt">
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-								<li><a href="#">Vis id faucibus montes tempor</a></li>
-								<li><a href="#">Massa amet lobortis vel.</a></li>
-								<li><a href="#">Nascetur nunc varius commodo.</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="copyright">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
-					</ul>
-					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Coverr</a>. Video: <a href="https://coverr.co">Coverr</a>.
-				</div>
-			</footer>
-
+	
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

@@ -1,26 +1,21 @@
 #!/usr/bin/python
+# encoding: utf-8
 from sklearn.cluster import KMeans
 import numpy as np
-import csv
 
-# read data from database CSV file
-def readcsv(filename):	
-    ifile = open(filename, "rU")
-    reader = csv.reader(ifile, delimiter=";")
-
-    rownum = 0	
-    a = []
-
-    for row in reader:
-        a.append (row)
-        rownum += 1
-    
-    ifile.close()
-    return a
+def readcsv2(filename):
+	with open(filename) as f:
+		b = []
+		for line in f:
+			sp = line.split(';');
+			a = []	
+			for pal in sp:
+				a.append(pal)
+			b.append(a)
+	return b
 
 # entire database with name, email and class
-data = readcsv('dataset.txt')
-
+data = readcsv2('dataset.txt')
 
 data_without_info = []
 
@@ -29,7 +24,7 @@ for items in data:
     data_without_info.append(items[0:13])
 
 # creating and running KMeans model 
-kmeans = KMeans(n_clusters=3, random_state=0).fit(data_without_info)
+kmeans = KMeans(n_clusters=5, random_state=0).fit(data_without_info)
 #print(kmeans.labels_)
 
 # predicting the cluster of the user
