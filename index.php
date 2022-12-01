@@ -26,7 +26,7 @@
 				<ul class="links">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="#2">Metodologia</a></li>
-					<li><a href="generic.html">Formulário</a></li>
+					<li><a href="formulario.html">Formulário</a></li>
 					
 					
 				</ul>
@@ -79,7 +79,7 @@
 <hr class="major" />
 <div  class="align-center">
 Essa série de perguntas nos ajudará a encontrar novos amigos para você:<br><br>
-<a href="generic.html" class="button big alt scrolly">Responda ao questionário</a>
+<a href="formulario.html" class="button big alt scrolly">Responda ao questionário</a>
 	</div>						
 					</div>
 				</section>

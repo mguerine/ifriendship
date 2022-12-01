@@ -1,7 +1,8 @@
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    	<meta charset="UTF-8">
 		<title>IFriendship: Sistema de Recomendação de Amizades</title>
-		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/as.png">
@@ -19,7 +20,7 @@
 				<ul class="links">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="index.php#2">Metodologia</a></li>
-					<li><a href="generic.html">Formulário</a></li>
+					<li><a href="formulario.html">Formulário</a></li>
 					
 				</ul>
 			</nav>
@@ -40,19 +41,19 @@
 						$name_form = $_POST["name"];
 						$email_form = $_POST["email"];
 						$turma_form = $_POST["turma"];
-						$resp1_form = floatval ($_POST["questao01"]);
-						$resp2_form = floatval ($_POST["questao02"]);
-						$resp3_form = floatval ($_POST["questao03"]);
-						$resp4_form = floatval ($_POST["questao04"]);
-						$resp5_form = floatval ($_POST["questao05"]);
-						$resp6_form = floatval ($_POST["questao06"]);
-						$resp7_form = floatval ($_POST["questao07"]);
-						$resp8_form = floatval ($_POST["questao08"]);
-						$resp9_form = floatval ($_POST["questao09"]);
-						$resp10_form = floatval ($_POST["questao10"]);
-						$resp11_form = floatval ($_POST["questao11"]);
-						$resp12_form = floatval ($_POST["questao12"]);
-						$resp13_form = floatval ($_POST["questao13"]);
+						$resp1_form = $_POST["questao01"];
+						$resp2_form = $_POST["questao02"];
+						$resp3_form = $_POST["questao03"];
+						$resp4_form = $_POST["questao04"];
+						$resp5_form = $_POST["questao05"];
+						$resp6_form = $_POST["questao06"];
+						$resp7_form = $_POST["questao07"];
+						$resp8_form = $_POST["questao08"];
+						$resp9_form = $_POST["questao09"];
+						$resp10_form = $_POST["questao10"];
+						$resp11_form = $_POST["questao11"];
+						$resp12_form = $_POST["questao12"];
+						$resp13_form = $_POST["questao13"];
 						/*foreach( $_POST as $stuff ) {
 						    if( is_array( $stuff ) ) {
 							foreach( $stuff as $thing ) {
@@ -62,7 +63,7 @@
 							echo $stuff;
 						    }
 						}*/
-						$resp1_form = ($resp1_form - 1)/(11);
+						/*$resp1_form = ($resp1_form - 1)/(11);
 						$resp2_form = ($resp2_form - 1)/(6);
 						$resp3_form = ($resp3_form - 1)/(7);
 						$resp4_form = ($resp4_form - 1)/(6);
@@ -74,9 +75,9 @@
 						$resp10_form = ($resp10_form - 1)/(10);
 						$resp11_form = ($resp11_form - 1)/(5);
 						$resp12_form = ($resp12_form - 1)/(5);
-						$resp13_form = ($resp13_form - 1)/(8);
+						$resp13_form = ($resp13_form - 1)/(8);*/
 						// retrieving data from POST to insert into database
-						$new_data = $resp1_form. " ; " .$resp2_form. " ; " .$resp3_form. " ; " .$resp4_form. " ; " .$resp5_form. " ; " .$resp6_form. " ; " .$resp7_form. " ; " .$resp8_form. " ; " .$resp9_form. " ; " .$resp10_form. " ; " .$resp11_form. " ; " .$resp12_form. " ; " .$resp13_form. " ; " .$name_form . " ; " . $email_form . " ; ". $turma_form . "\n";
+						$new_data = $resp1_form. " , " .$resp2_form. " , " .$resp3_form. " , " .$resp4_form. " , " .$resp5_form. " , " .$resp6_form. " , " .$resp7_form. " , " .$resp8_form. " , " .$resp9_form. " , " .$resp10_form. " , " .$resp11_form. " , " .$resp12_form. " , " .$resp13_form. " , " .$name_form . " , " . $email_form . " , ". $turma_form . "\n";
 						
 						// inserting new data to database
 						file_put_contents("dataset.txt",$new_data,FILE_APPEND);

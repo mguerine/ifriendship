@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!--
+	Broadcast by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>IFriendship: Sistema de Recomendação de Amizades</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/as.png">
+
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.php">IFriendship <span>by Luis, Fran and Lucas</span></a></h1>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="index.php#2">Metodologia</a></li>
+					<li><a href="formulario.html">Formulário</a></li>
+					
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<div id="main">
+
+			<!-- One -->
+				<section class="wrapper style1">
+					<div class="inner">
+						<header class="align-center">
+							<h2>IFriendship: Sistema de Recomendação de Amizades</h2>
+						</header>
+	
+						<div class="Formulário">
+
+						<form method="post" action="results.php">
+							<div class="id">
+								<table>
+								 <tr>
+								   <td>Nome:</td>
+								   <td> <input type="text" name="name" id="name" size="50" autofocus required ></input></td>
+								 </tr>
+								 <tr> 	
+								 	<td> Email:</td>
+								 	<td> <input type="text" name="email" id="email" size="50" required ></input></td>
+								 </tr>
+								 <tr>
+
+
+								   <td>Turma:</td>
+								   <td><div class="select-wrapper">
+										<select name="turma" id="turma" required > 
+									   	<option disabled selected value> -- Selecione uma opção -- </option>
+									   	<option value="TA100">TA100</option>
+									   	<option value="TA101">TA101</option>
+									   	<option value="TA102">TA102</option>
+									   	<option value="MA103">MA103</option>
+									   	<option value="MA104">MA104</option>
+									   	<option value="TI105">TI105</option>
+									   	<option value="AI107">AI107</option>
+									   	<option value="TA201">TA201</option>
+									   	<option value="TA202">TA202</option>
+									   	<option value="MA203">MA203</option>
+									   	<option value="MA204">MA204</option>
+									   	<option value="TI205">TI205</option>
+									   	<option value="TI206">TI206</option>
+									   	<option value="AI207">AI207</option>
+									   	<option value="TA301">TA301</option>
+									   	<option value="TA302">TA302</option>
+									   	<option value="MA303">MA303</option>
+									   	<option value="MA304">MA304</option>
+									   	<option value="TI305">TI305</option>
+									   	<option value="TI306">TI306</option>
+									   	<option value="AI307">AI307</option>
+										<option value="LICOMP">LICOMP</option>
+										<option value="Professor">Professor</option>
+										<option value="Outra">Outra</option>
+									</select>
+									</div>
+								   </td>
+								 </tr>
+								</table>
+								
+							</div>
+							<div class="questao1">
+							</br>
+								<h1>01- Você se considera uma pessoa:</h1>
+									<div class="select-wrapper"> <select name="questao01" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Calma</option>
+										<option value="B">Agitada</option>
+										<option value="C">Comunicativa</option>
+										<option value="D">Tímida</option>
+										<option value="E">Impulsiva</option>
+										<option value="F">Prudente</option>
+										<option value="G">Divertida</option>
+										<option value="H">Inteligente</option>
+										<option value="I">Otimista</option>
+										<option value="J">Pessimista</option>
+										<option value="K">Protetora</option>
+										<option value="L">Confiante</option>
+								    </select></div></ol>
+							</div>
+
+
+							<div class="questao2">
+							</br>
+								<h1>02- Como você gosta de se expressar?</h1>
+									<div class="select-wrapper"> <select name="questao02" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Desenhando</option>
+										<option value="B">Escrevendo</option>
+										<option value="C">Dançando</option>
+										<option value="D">Cantando</option>
+										<option value="E">Conversando</option>
+										<option value="F">Pintando</option>
+										<option value="G">Jogando</option>
+								    </select></div>
+							</div>
+
+
+							<div class="questao3">
+							</br>
+								<h1>03- Qual seu gênero musical preferido?</h1>
+									<div class="select-wrapper"> <select name="questao03" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Funk</option>
+										<option value="B">Rock</option>
+										<option value="C">Rap</option>
+										<option value="D">Sertanejo</option>
+										<option value="E">Indie</option>
+										<option value="F">K-pop</option>
+										<option value="G">Reggae</option>
+										<option value="H">Pagode</option>
+								    </select></div>
+							</div>
+
+
+							<div class="questao4">
+							</br>
+								<h1>04- Qual o tipo de comida que você mais gosta?</h1>
+									<div class="select-wrapper"> <select name="questao04" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Japonesa</option>
+										<option value="B">Pizza</option>
+										<option value="C">Salgados</option>
+										<option value="D">Hambúrguer</option>
+										<option value="E">Sorverte</option>
+										<option value="F">Brigadeiro</option>
+										<option value="G">Biscoito</option>
+								    </select></div>
+							</div>
+
+							<div class="questao5">
+							</br>
+								<h1>05- O que você costuma fazer em um sábado ?</h1>
+									<div class="select-wrapper"> <select name="questao05" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Ir para festas/baladas</option>
+										<option value="B">Ir para bares</option>
+										<option value="C">Passar um tempo com a familia</option>
+										<option value="D">Jogar</option>
+										<option value="E">Ficar em casa</option>
+								    </select></div>
+							</div>
+
+							<div class="questao6">
+							</br>
+								<h1>06- Qual seria o programa perfeito para fazer com seus amigos ?</h1>
+									<div class="select-wrapper"> <select name="questao06" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Passar o dia em um fliperama</option>
+										<option value="B">Passar o dia no campo</option>
+										<option value="C">Ir para a balada</option>
+										<option value="D">Ir para o bar</option>
+										<option value="E">Passar o dia na praia</option>
+										<option value="F">Passar o dia na cachoeira</option>
+								    </select></div>
+							</div>
+
+							<div class="questao7">
+							</br>
+								<h1>07- O que você gosta de fazer no seu tempo livre ?</h1>
+									<div class="select-wrapper"> <select name="questao07" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Assistir filmes/séries</option>
+										<option value="B">Ler</option>
+										<option value="C">Jogar</option>
+										<option value="D">Sair com os amigos</option>
+										<option value="E">Estudar</option>
+										<option value="F">Ir à igreja</option>
+								    </select></div>
+							</div>
+
+							<div class="questao8">
+							</br>
+								<h1>08- Que tipos de filme/série você gosta ?</h1>
+									<div class="select-wrapper"> <select name="questao08" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Terror</option>
+										<option value="B">Comédia</option>
+										<option value="C">Romance</option>
+										<option value="D">Drama</option>
+										<option value="E">Musical</option>
+										<option value="F">Ficção Científica</option>
+										<option value="G">Documentários</option>
+								    </select></div>
+							</div>
+
+							<div class="questao9">
+							</br>
+								<h1>09- Qual superpoder você teria ?</h1>
+									<div class="select-wrapper"> <select name="questao09" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Super velocidade</option>
+										<option value="B">Voar</option>
+										<option value="C">Teletransporte</option>
+										<option value="D">Super força</option>
+										<option value="E">Ler mentes</option>
+								    </select></div>
+							</div>
+
+							<div class="questao10">
+							</br>
+								<h1>10- Qual a característica que você considera importante em uma pessoa ?</h1>
+									<div class="select-wrapper"> <select name="questao10" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Sincero</option>
+										<option value="B">Companheiro</option>
+										<option value="C">Senso de humor compativel</option>
+										<option value="D">Alegre</option>
+										<option value="E">Responsável</option>
+										<option value="F">Animado</option>
+										<option value="G">Compreensivo</option>
+										<option value="H">Extrovertido</option>
+										<option value="I">Tímido</option>
+										<option value="J">Estudioso</option>
+										<option value="K">Bondoso</option>
+								    </select></div>
+							</div>
+
+							<div class="questao11">
+							</br>
+								<h1>11- Qual seu maior sonho ?</h1>
+									<div class="select-wrapper"> <select name="questao11" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Ser bem sucedido financeiramente</option>
+										<option value="B">Viajar pelo mundo</option>
+										<option value="C">Construir uma familia</option>
+										<option value="D">Mudar o mundo com uma ideia genial</option>
+										<option value="E">Ser famoso por seus méritos</option>
+										<option value="F">Fazer uma descoberta fascinante</option>
+								    </select></div>
+							</div>
+
+							<div class="questao12">
+							</br>
+								<h1>12- Qual a sua meta ?</h1>
+									<div class="select-wrapper"> <select name="questao12" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Aprender coisas novas</option>
+										<option value="B">Sair mais</option>
+										<option value="C">Ser mais comunicativo(a)</option>
+										<option value="D">Ser mais dedicado(a)</option>
+										<option value="E">Ser mais compreensivel</option>
+										<option value="F">Continuar do mesmo jeito/sem metas</option>
+								    </select></div>
+							</div>
+
+							<div class="questao13">
+							</br>
+								<h1>13- Se você pudesse conhecer alguém que admira, quem seria?</h1>
+									<div class="select-wrapper"> <select name="questao13" required >
+										<option disabled selected value> -- Selecione uma opção -- </option>
+										<option value="A">Atleta</option>
+										<option value="B">Atriz/Ator</option>
+										<option value="C">Cantor/Cantora</option>
+										<option value="D">Youtuber/Blogueira/Streamer</option>
+										<option value="E">Fotógrafo</option>
+										<option value="F">Pintor</option>
+										<option value="G">Cientista</option>
+										<option value="H">Empreendedor</option>
+										<option value="I">Cozinheiro</option>
+								    </select></div>
+							</div>
+
+											
+						</div>
+					</br>
+												<input type="submit" name="submit" value="Submeter" />
+									</form>				
+					</div>
+				</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
